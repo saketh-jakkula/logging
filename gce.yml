@@ -18,3 +18,5 @@ apiServer:
     hostPath: /etc/kubernetes/cloud-config
     mountPath: /etc/kubernetes/cloud
     pathType: FileOrCreate
+networking:
+  podSubnet: 10.244.0.0/16
